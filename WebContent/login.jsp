@@ -6,11 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Login</title>
 </head>
-<body>
+<body bgcolor="93d8d3">
 <form action ="LoginServlet" method="post">
-Email<input type="email" name="email"><br>
-Password<input type ="password" name="password"><br>
-<button type="submit">LOGIN</button>
+Email<input type="email" name="email"><br><br>
+Password<input type ="password" name="password"><br><br>
+<button type="submit">LOGIN</button><br><br>
 <a href ="home.jsp">Go to Home</a>
 </form>
 </body>

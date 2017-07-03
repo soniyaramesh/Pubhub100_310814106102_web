@@ -1,8 +1,6 @@
 package com.revature.controller;
 
 import java.io.IOException;
-import java.sql.SQLException;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -38,12 +36,9 @@ public class DeleteServlet extends HttpServlet {
 		BooksDAO dao = new BooksDAO();
 		try {
 			dao.delete(book);
-		} catch (ClassNotFoundException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		} 
 	}		
 }

@@ -6,12 +6,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Registration</title>
 </head>
-<body>
+<body bgcolor="969dd7">
 <form action="RegistrationServlet" method="post">
-Name<input type ="text" name="name"><br>
-Email<input type="email" name="email"><br>
-Password<input type="password" name ="password"><br>
-<button type="submit">REGISTER</button><br>
+Name<input type ="text" name="name"><br><br>
+Email<input type="email" name="email"><br><br>
+Password<input type="password" name ="password"><br><br>
+<button type="submit">REGISTER</button><br><br>
 <a href ="home.jsp">Go to Home </a>
 
 </form>

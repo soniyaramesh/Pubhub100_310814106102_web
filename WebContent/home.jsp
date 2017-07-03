@@ -7,9 +7,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Home</title>
 </head>
-<body>
+<body bgcolor="eeeb2d">
 <h1>Welcome to PubHub100 Application</h1>
-<a href="register.jsp">Register</a> <br>
+<a href="register.jsp">Register</a> <br><br>
 <a href="login.jsp">Login</a><br>
 
 </body>

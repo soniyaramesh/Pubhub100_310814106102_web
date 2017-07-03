@@ -6,9 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>login Fails</title>
 </head>
-<body>
-<h1>Invalid Details</h1> 
-<a href ="home.jsp"> Home</a>
+<body bgcolor="e3c3e8">
 
 </body>
 </html>

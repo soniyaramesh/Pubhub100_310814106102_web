@@ -1,7 +1,6 @@
 package com.revature.controller;
 
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -44,13 +43,10 @@ public class SearchServlet extends HttpServlet {
 			else{
 				response.sendRedirect("failure.jsp");
 			}
-		} catch (ClassNotFoundException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		} 
 		
 
 	}
